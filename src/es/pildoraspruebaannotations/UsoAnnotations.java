@@ -23,6 +23,8 @@ public class UsoAnnotations {
 		}else {
 			System.out.println("no apuntan al mismo objeto");
 		}
+		
+		
 		app.close();
 	}
 }
