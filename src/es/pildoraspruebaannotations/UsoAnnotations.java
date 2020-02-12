@@ -15,8 +15,8 @@ public class UsoAnnotations {
 		
 		System.out.println(Juan.getTareas());
 		System.out.println(Juan.getInformes());
-//		System.out.println(Juan);
-//		System.out.println(Juan1);
+		System.out.println(Juan);
+		System.out.println(Juan1);
 		
 		if (Juan==Juan1) {
 			System.out.println("es el  mismo objeto");
