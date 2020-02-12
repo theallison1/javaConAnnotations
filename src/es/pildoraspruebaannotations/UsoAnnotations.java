@@ -15,14 +15,14 @@ public class UsoAnnotations {
 		
 		System.out.println(Juan.getTareas());
 		System.out.println(Juan.getInformes());
-		System.out.println(Juan);
-		System.out.println(Juan1);
-		
-		if (Juan==Juan1) {
-			System.out.println("es el  mismo objeto");
-		}else {
-			System.out.println("no apuntan al mismo objeto");
-		}
+//		System.out.println(Juan);
+//		System.out.println(Juan1);
+//		
+//		if (Juan==Juan1) {
+//			System.out.println("es el  mismo objeto");
+//		}else {
+//			System.out.println("no apuntan al mismo objeto");
+//		}
 		
 		
 		app.close();
