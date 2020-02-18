@@ -20,8 +20,12 @@ public class UsoAnnotations {
 		
 		Empleados Director = app.getBean("directorFinanciero",Empleados.class);
 		
-		System.out.println(Director.getInformes());
+//		System.out.println(Director.getInformes());
+
+		DirectorFinanciero prueba = app.getBean("directorFinanciero",DirectorFinanciero.class);
 		
+		System.out.println(prueba.getEmail());
+		System.out.println(prueba.getNombreEmpresa());
 		
 		app.close();
 	}
